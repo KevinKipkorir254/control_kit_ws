@@ -1,7 +1,0 @@
-{
-  "package_name": "ros2_motor_controller_msgs",
-  "non_idl_tuples": [
-    "/home/kevo/robotics_inc/control_kit_ws/src/ros2_motor_controller_msgs:srv/KeyboardCommands.srv",
-    "/home/kevo/robotics_inc/control_kit_ws/src/ros2_motor_controller_msgs:msgs/VelocityFeedback.msg"
-  ]
-}
