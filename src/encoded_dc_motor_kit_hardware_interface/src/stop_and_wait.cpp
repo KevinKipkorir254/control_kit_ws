@@ -2,6 +2,7 @@
 
 
 // Function to delay by a specific duration
+//This is great software
 void delay(int milliseconds) {
     std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds));
 }
