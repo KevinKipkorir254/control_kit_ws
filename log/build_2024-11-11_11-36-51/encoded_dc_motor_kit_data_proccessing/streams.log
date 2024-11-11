@@ -1,0 +1,22 @@
+[3.245s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/src/encoded_dc_motor_kit_data_proccessing': PYTHONPATH=/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoded_dc_motor_kit_data_proccessing build --build-base /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/build install --record /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/install.log --single-version-externally-managed install_data
+[4.487s] running egg_info
+[4.489s] writing ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/PKG-INFO
+[4.498s] writing dependency_links to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/dependency_links.txt
+[4.499s] writing entry points to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/entry_points.txt
+[4.499s] writing requirements to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/requires.txt
+[4.499s] writing top-level names to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/top_level.txt
+[4.507s] reading manifest file '../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/SOURCES.txt'
+[4.508s] adding license file 'LICENSE'
+[4.508s] adding license file 'LICENSE:Zone.Identifier'
+[4.517s] writing manifest file '../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/SOURCES.txt'
+[4.517s] running build
+[4.517s] running build_py
+[4.518s] running install
+[4.518s] running install_lib
+[4.537s] running install_data
+[4.538s] running install_egg_info
+[4.546s] removing '/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages/encoded_dc_motor_kit_data_proccessing-0.0.0-py3.10.egg-info' (and everything under it)
+[4.547s] Copying ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info to /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages/encoded_dc_motor_kit_data_proccessing-0.0.0-py3.10.egg-info
+[4.549s] running install_scripts
+[4.666s] writing list of installed files to '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/install.log'
+[4.833s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/src/encoded_dc_motor_kit_data_proccessing' returned '0': PYTHONPATH=/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoded_dc_motor_kit_data_proccessing build --build-base /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/build install --record /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/install.log --single-version-externally-managed install_data

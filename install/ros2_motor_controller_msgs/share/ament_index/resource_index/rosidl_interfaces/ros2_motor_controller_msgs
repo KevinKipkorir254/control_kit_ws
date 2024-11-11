@@ -1,0 +1,6 @@
+msg/VelocityFeedback.idl
+msgs/VelocityFeedback.msg
+srv/KeyboardCommands.idl
+srv/KeyboardCommands.srv
+srv/KeyboardCommands_Request.msg
+srv/KeyboardCommands_Response.msg

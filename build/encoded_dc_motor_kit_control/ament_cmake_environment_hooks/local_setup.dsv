@@ -1,0 +1,2 @@
+source;share/encoded_dc_motor_kit_control/environment/ament_prefix_path.sh
+source;share/encoded_dc_motor_kit_control/environment/path.sh

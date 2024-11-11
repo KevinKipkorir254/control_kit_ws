@@ -1,0 +1,9 @@
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/uninstall.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/ros2_motor_controller_uninstall.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/test.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/edit_cache.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/rebuild_cache.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/list_install_components.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/install.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/install/local.dir
+/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller/CMakeFiles/install/strip.dir

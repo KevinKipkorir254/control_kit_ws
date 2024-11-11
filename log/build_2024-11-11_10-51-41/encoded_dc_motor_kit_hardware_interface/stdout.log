@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target encoded_dc_motor_kit_hardware_interface[0m
+[  0%] Built target ament_cmake_python_copy_encoded_dc_motor_kit_hardware_interface
+[ 33%] [32mBuilding CXX object CMakeFiles/encoded_dc_motor_kit_hardware_interface.dir/src/hardware_interface.cpp.o[0m
+running egg_info
+writing encoded_dc_motor_kit_hardware_interface.egg-info/PKG-INFO
+writing dependency_links to encoded_dc_motor_kit_hardware_interface.egg-info/dependency_links.txt
+writing top-level names to encoded_dc_motor_kit_hardware_interface.egg-info/top_level.txt
+reading manifest file 'encoded_dc_motor_kit_hardware_interface.egg-info/SOURCES.txt'
+writing manifest file 'encoded_dc_motor_kit_hardware_interface.egg-info/SOURCES.txt'
+[ 33%] Built target ament_cmake_python_build_encoded_dc_motor_kit_hardware_interface_egg

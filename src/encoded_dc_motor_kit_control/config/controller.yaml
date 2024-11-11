@@ -1,0 +1,19 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Hz
+
+    velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+velocity_controller:
+  ros__parameters:
+    joints:
+      - shaft_joint   
+    # interface_name: velocity
+    # state_interfaces: 
+    #   - velocity  # State interface to read velocity
+    # command_interfaces: 
+    #   - velocity  # Command interface to send velocity command

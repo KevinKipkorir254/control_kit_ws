@@ -1,0 +1,28 @@
+[0.119s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control -- -j8 -l8
+[1.109s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control -- -j8 -l8
+[1.312s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control
+[1.375s] -- Install configuration: ""
+[1.380s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/launch
+[1.381s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/launch/controllers.launch.py:Zone.Identifier:Zone.Identifier
+[1.382s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/launch/controllers.launch.py:Zone.Identifier
+[1.382s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/launch/controllers.launch.py
+[1.382s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/config
+[1.382s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/config/controller.yaml:Zone.Identifier:Zone.Identifier
+[1.382s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/config/controller.yaml
+[1.383s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/config/controller.yaml:Zone.Identifier
+[1.388s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/ament_index/resource_index/package_run_dependencies/encoded_dc_motor_kit_control
+[1.389s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/ament_index/resource_index/parent_prefix_path/encoded_dc_motor_kit_control
+[1.389s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/environment/ament_prefix_path.sh
+[1.389s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/environment/ament_prefix_path.dsv
+[1.390s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/environment/path.sh
+[1.390s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/environment/path.dsv
+[1.391s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/local_setup.bash
+[1.392s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/local_setup.sh
+[1.392s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/local_setup.zsh
+[1.392s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/local_setup.dsv
+[1.392s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/package.dsv
+[1.396s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/ament_index/resource_index/packages/encoded_dc_motor_kit_control
+[1.399s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/cmake/encoded_dc_motor_kit_controlConfig.cmake
+[1.399s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/cmake/encoded_dc_motor_kit_controlConfig-version.cmake
+[1.399s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_control/share/encoded_dc_motor_kit_control/package.xml
+[1.399s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_control

@@ -1,0 +1,273 @@
+[0.132s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/control_kit_ws/src/ros2_motor_controller_msgs -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs
+[1.148s] -- The C compiler identification is GNU 11.4.0
+[1.159s] -- The CXX compiler identification is GNU 11.4.0
+[1.739s] -- Detecting C compiler ABI info
+[2.196s] -- Detecting C compiler ABI info - done
+[2.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.236s] -- Detecting C compile features
+[2.237s] -- Detecting C compile features - done
+[2.249s] -- Detecting CXX compiler ABI info
+[2.892s] -- Detecting CXX compiler ABI info - done
+[2.915s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.919s] -- Detecting CXX compile features
+[2.920s] -- Detecting CXX compile features - done
+[2.936s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.609s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.083s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[4.586s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.618s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.667s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.027s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.181s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.173s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.898s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.898s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.899s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.973s] -- Found PythonExtra: .so  
+[9.370s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.394s] -- Configuring done
+[9.495s] -- Generating done
+[9.502s] -- Build files have been written to: /home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs
+[9.523s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/control_kit_ws/src/ros2_motor_controller_msgs -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs
+[9.526s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs -- -j8 -l8
+[9.638s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.677s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.702s] [  5%] Built target ament_cmake_python_copy_ros2_motor_controller_msgs
+[10.653s] running egg_info
+[10.655s] creating ros2_motor_controller_msgs.egg-info
+[10.656s] writing ros2_motor_controller_msgs.egg-info/PKG-INFO
+[10.656s] writing dependency_links to ros2_motor_controller_msgs.egg-info/dependency_links.txt
+[10.657s] writing top-level names to ros2_motor_controller_msgs.egg-info/top_level.txt
+[10.658s] writing manifest file 'ros2_motor_controller_msgs.egg-info/SOURCES.txt'
+[10.669s] reading manifest file 'ros2_motor_controller_msgs.egg-info/SOURCES.txt'
+[10.669s] writing manifest file 'ros2_motor_controller_msgs.egg-info/SOURCES.txt'
+[10.828s] [  5%] Built target ament_cmake_python_build_ros2_motor_controller_msgs_egg
+[10.850s] [  5%] Built target ros2_motor_controller_msgs__cpp
+[10.879s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.881s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.884s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.910s] [ 15%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_motor_controller_msgs/msg/detail/velocity_feedback__functions.c.o[0m
+[10.911s] [ 17%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_motor_controller_msgs/srv/detail/keyboard_commands__functions.c.o[0m
+[11.087s] [ 20%] [32m[1mLinking C shared library libros2_motor_controller_msgs__rosidl_generator_c.so[0m
+[11.485s] [ 20%] Built target ros2_motor_controller_msgs__rosidl_generator_c
+[11.532s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.554s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.569s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.225s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_motor_controller_msgs/msg/velocity_feedback__type_support.cpp.o[0m
+[12.238s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_motor_controller_msgs/srv/keyboard_commands__type_support.cpp.o[0m
+[12.266s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support.cpp.o[0m
+[12.285s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support.cpp.o[0m
+[12.710s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_motor_controller_msgs/srv/detail/dds_fastrtps/keyboard_commands__type_support.cpp.o[0m
+[13.982s] [ 43%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support.c.o[0m
+[14.027s] [ 46%] [32m[1mLinking CXX shared library libros2_motor_controller_msgs__rosidl_typesupport_cpp.so[0m
+[14.051s] [ 48%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support.c.o[0m
+[14.139s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support_c.cpp.o[0m
+[14.148s] [ 53%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_motor_controller_msgs/srv/keyboard_commands__type_support.cpp.o[0m
+[14.168s] [ 56%] [32m[1mLinking C shared library libros2_motor_controller_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.191s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_motor_controller_msgs/msg/velocity_feedback__type_support.cpp.o[0m
+[14.292s] [ 61%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_motor_controller_msgs/msg/detail/dds_fastrtps/velocity_feedback__type_support.cpp.o[0m
+[14.324s] [ 64%] [32mBuilding CXX object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support_c.cpp.o[0m
+[14.355s] [ 66%] [32m[1mLinking CXX shared library libros2_motor_controller_msgs__rosidl_typesupport_c.so[0m
+[14.423s] [ 66%] Built target ros2_motor_controller_msgs__rosidl_typesupport_cpp
+[14.498s] [ 66%] Built target ros2_motor_controller_msgs__rosidl_typesupport_introspection_c
+[14.619s] [ 69%] [32m[1mLinking CXX shared library libros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.796s] [ 69%] Built target ros2_motor_controller_msgs__rosidl_typesupport_c
+[14.957s] [ 69%] Built target ros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp
+[15.297s] [ 71%] [32m[1mLinking CXX shared library libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.509s] [ 74%] [32m[1mLinking CXX shared library libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.684s] [ 74%] Built target ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c
+[15.858s] [ 74%] Built target ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[15.911s] [ 74%] Built target ros2_motor_controller_msgs
+[15.973s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.117s] [ 76%] Built target ros2_motor_controller_msgs__py
+[17.168s] [ 79%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_motor_controller_msgs/msg/_velocity_feedback_s.c.o[0m
+[17.168s] [ 82%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_motor_controller_msgs/srv/_keyboard_commands_s.c.o[0m
+[17.404s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ros2_motor_controller_msgs/libros2_motor_controller_msgs__rosidl_generator_py.so[0m
+[17.603s] [ 84%] Built target ros2_motor_controller_msgs__rosidl_generator_py
+[17.654s] [ 89%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.654s] [ 89%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.655s] [ 92%] [32mBuilding C object CMakeFiles/ros2_motor_controller_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.906s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.907s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.945s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.093s] [100%] Built target ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.098s] [100%] Built target ros2_motor_controller_msgs__rosidl_typesupport_c__pyext
+[18.153s] [100%] Built target ros2_motor_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[18.182s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs -- -j8 -l8
+[18.407s] Invoking command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs
+[18.426s] -- Install configuration: ""
+[18.427s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_motor_controller_msgs
+[18.428s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.428s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.429s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/keyboard_commands.h
+[18.429s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.429s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support.h
+[18.430s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__functions.h
+[18.430s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__functions.c
+[18.430s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__struct.h
+[18.431s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.431s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/velocity_feedback.h
+[18.431s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.432s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.432s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__struct.h
+[18.432s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__functions.c
+[18.432s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support.h
+[18.432s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__functions.h
+[18.433s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/library_path.sh
+[18.434s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/library_path.dsv
+[18.434s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_generator_c.so
+[18.438s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_generator_c.so" to ""
+[18.439s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.440s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.441s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.441s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__rosidl_typesupport_fastrtps_c.h
+[18.442s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.442s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.443s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.443s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__rosidl_typesupport_fastrtps_c.h
+[18.443s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[18.444s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.444s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.444s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.445s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/keyboard_commands.hpp
+[18.445s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.445s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__traits.hpp
+[18.446s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__builder.hpp
+[18.446s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__struct.hpp
+[18.446s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.447s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/velocity_feedback.hpp
+[18.447s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.447s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__traits.hpp
+[18.448s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__struct.hpp
+[18.448s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__builder.hpp
+[18.448s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.448s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.448s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.449s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[18.449s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/dds_fastrtps
+[18.449s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.449s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.449s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.450s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[18.450s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/dds_fastrtps
+[18.450s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.451s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.452s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.452s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.453s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.453s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support.c
+[18.454s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__rosidl_typesupport_introspection_c.h
+[18.454s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.454s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.455s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.455s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__rosidl_typesupport_introspection_c.h
+[18.455s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support.c
+[18.455s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_introspection_c.so
+[18.456s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.456s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_c.so
+[18.456s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_c.so" to ""
+[18.456s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs
+[18.457s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv
+[18.457s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail
+[18.458s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__rosidl_typesupport_introspection_cpp.hpp
+[18.458s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/srv/detail/keyboard_commands__type_support.cpp
+[18.458s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg
+[18.458s] -- Up-to-date: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail
+[18.459s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__type_support.cpp
+[18.459s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/include/ros2_motor_controller_msgs/ros2_motor_controller_msgs/msg/detail/velocity_feedback__rosidl_typesupport_introspection_cpp.hpp
+[18.460s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[18.460s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.460s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_cpp.so
+[18.461s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[18.461s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/pythonpath.sh
+[18.461s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/pythonpath.dsv
+[18.461s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs-0.0.0-py3.10.egg-info
+[18.461s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[18.461s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv/_keyboard_commands_s.c
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv/_keyboard_commands.py
+[18.462s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv/__init__.py
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/libros2_motor_controller_msgs__rosidl_generator_py.so
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg/_velocity_feedback_s.c
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg/_velocity_feedback.py
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg/__init__.py
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.463s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_c.c
+[18.464s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/_ros2_motor_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.464s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.464s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/__init__.py
+[18.464s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.541s] Listing '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs'...
+[18.541s] Compiling '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/__init__.py'...
+[18.541s] Listing '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg'...
+[18.541s] Compiling '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg/__init__.py'...
+[18.541s] Compiling '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/msg/_velocity_feedback.py'...
+[18.542s] Listing '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv'...
+[18.542s] Compiling '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv/__init__.py'...
+[18.542s] Compiling '/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/srv/_keyboard_commands.py'...
+[18.558s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.558s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.561s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.562s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.562s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.562s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/local/lib/python3.10/dist-packages/ros2_motor_controller_msgs/ros2_motor_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.562s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_generator_py.so
+[18.563s] -- Set runtime path of "/home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/lib/libros2_motor_controller_msgs__rosidl_generator_py.so" to ""
+[18.563s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/srv/KeyboardCommands.idl
+[18.563s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/msg/VelocityFeedback.idl
+[18.564s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/srv/KeyboardCommands.srv
+[18.564s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/srv/KeyboardCommands_Request.msg
+[18.564s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/srv/KeyboardCommands_Response.msg
+[18.564s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/msgs/VelocityFeedback.msg
+[18.565s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_motor_controller_msgs
+[18.565s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_motor_controller_msgs
+[18.566s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/ament_prefix_path.sh
+[18.566s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/ament_prefix_path.dsv
+[18.566s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/path.sh
+[18.568s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/environment/path.dsv
+[18.570s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/local_setup.bash
+[18.570s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/local_setup.sh
+[18.571s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/local_setup.zsh
+[18.571s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/local_setup.dsv
+[18.571s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/package.dsv
+[18.572s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ament_index/resource_index/packages/ros2_motor_controller_msgs
+[18.573s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_generator_cExport.cmake
+[18.573s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.574s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.574s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.575s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_generator_cppExport.cmake
+[18.575s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.575s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.576s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.576s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.576s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_cExport.cmake
+[18.577s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.577s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.578s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.578s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_cppExport.cmake
+[18.578s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.579s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_generator_pyExport.cmake
+[18.579s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/export_ros2_motor_controller_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.579s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[18.580s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.580s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.581s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.581s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.581s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.581s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.582s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgsConfig.cmake
+[18.582s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/cmake/ros2_motor_controller_msgsConfig-version.cmake
+[18.582s] -- Installing: /home/kevo/robotics_inc/control_kit_ws/install/ros2_motor_controller_msgs/share/ros2_motor_controller_msgs/package.xml
+[18.588s] Invoked command in '/home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/control_kit_ws/build/ros2_motor_controller_msgs

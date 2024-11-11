@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_motor_controller_msgs/srv/KeyboardCommands.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_motor_controller_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct KeyboardCommands_Request {
+      uint8 keyboard_input;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct KeyboardCommands_Response {
+      string response;
+    };
+  };
+};

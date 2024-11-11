@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/dependency_links.txt
+writing entry points to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/entry_points.txt
+writing requirements to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/requires.txt
+writing top-level names to ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/top_level.txt
+reading manifest file '../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+adding license file 'LICENSE:Zone.Identifier'
+writing manifest file '../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages/encoded_dc_motor_kit_data_proccessing-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/encoded_dc_motor_kit_data_proccessing/encoded_dc_motor_kit_data_proccessing.egg-info to /home/kevo/robotics_inc/control_kit_ws/install/encoded_dc_motor_kit_data_proccessing/lib/python3.10/site-packages/encoded_dc_motor_kit_data_proccessing-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kevo/robotics_inc/control_kit_ws/build/encoded_dc_motor_kit_data_proccessing/install.log'
