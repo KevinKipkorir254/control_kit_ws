@@ -122,6 +122,7 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
 {
   
   uint16_t data_output = 0;
+  int16_t signed_data;
   int sweet = read_data_data( &data_output, &serial_port_);
 
   if(!(sweet == 1))
@@ -130,11 +131,17 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
   }
   else
   {
-    RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Data output: %d", data_output);
+    // Split data_output into two bytes
+    uint8_t high_byte = (data_output >> 8) & 0xFF;
+    uint8_t low_byte = data_output & 0xFF;
+
+    // Combine them into a signed 16-bit integer
+    signed_data = (int16_t)((high_byte << 8) | low_byte);
+    //RCLCPP_INFO(rclcpp::get_logger("HHARDWARE INTERFACE"), "Data output: %d", signed_data);
   }
   
-  velocity_state[0] = 0.0;
-  velocity_state[1] = 0.0;
+  double position = (((double)signed_data)/500);
+  position_state[0] = position;
 
   return hardware_interface::return_type::OK;
 }
@@ -143,8 +150,13 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
 hardware_interface::return_type EncodedDcMotorKitHardwareInterface::write(const rclcpp::Time &time,
                                                            const rclcpp::Duration &period)
 {
+  uint16_t data_output_sting = (uint16_t)position_command[0];
+  
+  // Split data_output into two bytes
+  uint8_t high_byte = (data_output_sting >> 8) & 0xFF;
+  uint8_t low_byte = data_output_sting & 0xFF;
 
-  unsigned char data_output[2] = { 0x33, 0x22};
+  unsigned char data_output[2] = { (unsigned char)high_byte, (unsigned char)low_byte};
   int sweet = write_data_data( data_output, &serial_port_);
 
   if(!(sweet == 1))

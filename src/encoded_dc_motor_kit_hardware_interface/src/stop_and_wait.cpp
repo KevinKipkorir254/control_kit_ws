@@ -46,14 +46,27 @@ int read_data_data(uint16_t* read_output, LibSerial::SerialPort* serial_port)
 
             //receive acknowledge
             // Wait until data is available
-             while (!serial_port->IsDataAvailable()) {           
+
+            {
+              int i = 0;
+             while (!serial_port->IsDataAvailable()) { 
+
+                          
                  // Show loading spinner
                  //std::cout << "\r" << spinner[spinner_index] << std::flush;
-                 RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "-");
+                 //RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "|");
                  delay(1); // Sleep for 100 milliseconds
                  // Move to the next spinner character
-                 spinner_index = (spinner_index + 1) % 4;
+                 i++;
+                 if(i > 100)
+                 {
+                   RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "FAILED WAIT");
+                   return -1;
+                 }
              }
+
+            }
+
              //std::cout << " "<< std::endl;
 
             //std::cout << "Reading data " << std::endl;
@@ -88,14 +101,24 @@ int read_data_data(uint16_t* read_output, LibSerial::SerialPort* serial_port)
             //Read the two bytes
             //receive acknowledge
             // Wait until data is available
-             while (!serial_port->IsDataAvailable()) {           
+            {
+
+              int i = 0;
+             while (!serial_port->IsDataAvailable()) {        
                  // Show loading spinner
                  //std::cout << "\r" << spinner[spinner_index] << std::flush;
-                 RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "|");
+                 //RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "|");
                  delay(1); // Sleep for 100 milliseconds
                  // Move to the next spinner character
-                 spinner_index = (spinner_index + 1) % 4;
+                 i++;
+                 if(i > 100)
+                 {
+                   RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "FAILED WAIT");
+                   return -1;
+                }
              }
+
+            }
              //std::cout << " "<< std::endl;
 
             serial_port->ReadByte(received_data[0], 1000);
@@ -148,14 +171,26 @@ int write_data_data(unsigned char *outgoing_data, LibSerial::SerialPort* serial_
 
             //receive acknowledge
             // Wait until data is available
-             while (!serial_port->IsDataAvailable()) {           
+
+            {
+              int i = 0;
+             while (!serial_port->IsDataAvailable()) { 
+
+                          
                  // Show loading spinner
                  //std::cout << "\r" << spinner[spinner_index] << std::flush;
-                RCLCPP_INFO(rclcpp::get_logger("PORT WRITE"), "\\");
+                 //RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "|");
                  delay(1); // Sleep for 100 milliseconds
                  // Move to the next spinner character
-                 //spinner_index = (spinner_index + 1) % 4;
+                 i++;
+                 if(i > 100)
+                 {
+                   RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "FAILED WAIT");
+                   return -1;
+                 }
              }
+
+            }
              //std::cout << " "<< std::endl;
 
             //std::cout << "Reading data " << std::endl;
@@ -187,15 +222,26 @@ int write_data_data(unsigned char *outgoing_data, LibSerial::SerialPort* serial_
 
             //receive acknowledge
             // Wait until data is available
-             while (!serial_port->IsDataAvailable()) 
-             {           
+
+            {
+              int i = 0;
+             while (!serial_port->IsDataAvailable()) { 
+
+                          
                  // Show loading spinner
                  //std::cout << "\r" << spinner[spinner_index] << std::flush;
-                 RCLCPP_INFO(rclcpp::get_logger("PORT WRITE"), "/");
+                 //RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "|");
                  delay(1); // Sleep for 100 milliseconds
                  // Move to the next spinner character
-                 //spinner_index = (spinner_index + 1) % 4;
+                 i++;
+                 if(i > 100)
+                 {
+                   RCLCPP_INFO(rclcpp::get_logger("PORT READ"), "FAILED WAIT");
+                   return -1;
+                 }
              }
+
+            }
              //std::cout << " "<< std::endl;
 
             //std::cout << "Reading data " << std::endl;
