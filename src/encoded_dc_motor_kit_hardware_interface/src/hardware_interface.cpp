@@ -3,6 +3,14 @@
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
 #include <pluginlib/class_list_macros.hpp>
 
+
+
+// ANSI escape codes for colors
+#define GREEN_TEXT "\033[0;32m"
+#define BLUE_TEXT "\033[0;34m"
+#define RED_TEXT "\033[0;31m"
+#define RESET_COLOR "\033[0m"
+
 //sweet
 
 namespace encoded_dc_motor_kit_hardware_interface
@@ -48,6 +56,9 @@ CallbackReturn EncodedDcMotorKitHardwareInterface::on_init(const hardware_interf
     velocity_state.resize(info_.joints.size(), 0.0);
     position_state.resize(info_.joints.size(), 0.0);
     position_command.resize(info_.joints.size(), 0.0);
+    acceleration_state.resize(info_.joints.size(), 0.0);
+    acceleration_command.resize(info_.joints.size(), 0.0);
+    effort_command.resize(info_.joints.size(), 0.0);
 
     node_ = rclcpp::Node::make_shared("hardware_interface_node");
     velocity_publisher_ = node_->create_publisher<ros2_motor_controller_msgs::msg::VelocityFeedback>("velocity_feedback", 10);
@@ -77,6 +88,7 @@ std::vector<hardware_interface::StateInterface> EncodedDcMotorKitHardwareInterfa
 
     for(size_t i = 0; i < info_.joints.size(); i++)
     {
+      state_interfaces.emplace_back(hardware_interface::StateInterface{ info_.joints[i].name, hardware_interface::HW_IF_ACCELERATION, &acceleration_state[i]});
       state_interfaces.emplace_back(hardware_interface::StateInterface{ info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &velocity_state[i]});
       state_interfaces.emplace_back(hardware_interface::StateInterface{ info_.joints[i].name, hardware_interface::HW_IF_POSITION, &position_state[i]});
     }
@@ -91,8 +103,7 @@ std::vector<hardware_interface::CommandInterface> EncodedDcMotorKitHardwareInter
   
     for(size_t i = 0; i < info_.joints.size(); i++)
     {
-       command_interfaces.emplace_back(hardware_interface::CommandInterface{ info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &velocity_command[i]});
-       command_interfaces.emplace_back(hardware_interface::CommandInterface{ info_.joints[i].name, hardware_interface::HW_IF_POSITION, &position_command[i]});
+       command_interfaces.emplace_back(hardware_interface::CommandInterface{ info_.joints[i].name, hardware_interface::HW_IF_EFFORT, &effort_command[i]});
     }
   
   return command_interfaces;
@@ -137,7 +148,7 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
 
     // Combine them into a signed 16-bit integer
     signed_data = (int16_t)((high_byte << 8) | low_byte);
-    //RCLCPP_INFO(rclcpp::get_logger("HHARDWARE INTERFACE"), "Data output: %d", signed_data);
+    RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), GREEN_TEXT": %d"RESET_COLOR, signed_data);
   }
   
   double position = (((double)signed_data)/500);
@@ -150,7 +161,8 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
 hardware_interface::return_type EncodedDcMotorKitHardwareInterface::write(const rclcpp::Time &time,
                                                            const rclcpp::Duration &period)
 {
-  uint16_t data_output_sting = (uint16_t)position_command[0];
+  int data_output_sting = (int)effort_command[0];
+  //int data_output_sting = 0;
   
   // Split data_output into two bytes
   uint8_t high_byte = (data_output_sting >> 8) & 0xFF;
@@ -165,7 +177,7 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::write(const 
   }
   else
   {
-   // RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Data output: %d", data_output);
+  RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), BLUE_TEXT": %d"RESET_COLOR, data_output_sting);
   }
 
   return hardware_interface::return_type::OK;

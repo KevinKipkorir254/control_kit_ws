@@ -56,6 +56,13 @@ def generate_launch_description():
         output="screen"
     )
 
+    effort_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["effort_controller"],
+        output="screen"
+    )
+
     rviz_config = os.path.join(get_package_share_directory("encoded_dc_motor_kit_description"), "rviz", "rviz_sim.rviz")
 
     rviz2 = Node(
@@ -84,7 +91,8 @@ def generate_launch_description():
         robot_state_publisher,
         controller_manager,
         joint_state_broadcaster_spawner,
-        velocity_controller_spawner,
+        effort_controller_spawner,
+        #velocity_controller_spawner,
         rviz2,
         #joint_state_publisher_gui,
         #models_visualisation_node,

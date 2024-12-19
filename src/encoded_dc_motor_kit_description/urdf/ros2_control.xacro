@@ -7,8 +7,10 @@
          <plugin>encoded_dc_motor_kit_hardware_interface/EncodedDcMotorKitHardwareInterface</plugin>
       </hardware>
       <joint name="shaft_joint">
+         <state_interface name="position"/>
          <state_interface name="velocity"/>
-         <command_interface name="velocity"/> <!-- Add command interface -->
+         <state_interface name="acceleration"/>
+         <command_interface name="effort"/> <!-- Add command interface -->
       </joint>
    </ros2_control>
 </robot>
