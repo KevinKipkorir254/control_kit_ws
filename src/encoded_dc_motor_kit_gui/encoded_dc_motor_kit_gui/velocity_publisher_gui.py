@@ -29,7 +29,7 @@ class EffortControlGUI:
 
         # Create the GUI window
         self.root = tk.Tk()
-        self.root.title("Effort Controller GUI")
+        self.root.title("Velocity Controller GUI")
 
         # Slider for setting effort value
         self.slider = tk.Scale(
@@ -37,7 +37,7 @@ class EffortControlGUI:
             from_=-7,
             to=7,
             orient="horizontal",
-            label="Effort Value",
+            label="Velocity Value",
             length=300,
             resolution=0.1,  # Set step size to 0.1
             command=self.publish_value,  # Publish whenever slider changes

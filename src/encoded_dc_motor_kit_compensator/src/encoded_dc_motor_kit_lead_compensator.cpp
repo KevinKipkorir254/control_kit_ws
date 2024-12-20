@@ -20,6 +20,7 @@ public:
         : Node("LeadCompensator"), count_(0)
     {
         publisher_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("/effort_controller/commands", 10);
+        filtered_velocity_publisher_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("/filtered_velocity", 10);
         subscription_ = this->create_subscription<std_msgs::msg::Float64MultiArray>("/velocity/commands", 10, std::bind(&LeadCompensator::update_reference_velocity, this, std::placeholders::_1));
         joint_state_subscription_ = this->create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&LeadCompensator::update_shaft_state_and_control_value, this, std::placeholders::_1));
 
@@ -53,6 +54,7 @@ private:
         }
         // filter velocity data
         shaft_velocity_ = filter_voltage_velocity_value(shaft_velocity_);
+        publish_filtered_velocity_value(shaft_velocity_);
 
         // get control value
         double control_output = update_control_value(shaft_velocity_);
@@ -66,6 +68,13 @@ private:
         auto control_message = std_msgs::msg::Float64MultiArray();
         control_message.data.push_back(control_output);
         publisher_->publish(control_message);
+    }
+
+    void publish_filtered_velocity_value(double filtered_velocity)
+    {
+        auto filtered_velocity_message = std_msgs::msg::Float64MultiArray();
+        filtered_velocity_message.data.push_back(filtered_velocity);
+        filtered_velocity_publisher_->publish(filtered_velocity_message);
     }
 
     double filter_voltage_velocity_value(double shaft_velocity)
@@ -104,6 +113,7 @@ private:
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr publisher_;
+    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr filtered_velocity_publisher_;
     rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_;
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr joint_state_subscription_;
     volatile double reference_velocity;
