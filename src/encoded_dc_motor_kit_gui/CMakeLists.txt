@@ -18,6 +18,7 @@ install(
     ${PROJECT_NAME}/PID_parameters_publisher.py
     ${PROJECT_NAME}/response_plotter_node.py
     ${PROJECT_NAME}/voltage_publisher_gui.py
+    ${PROJECT_NAME}/velocity_publisher_gui.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

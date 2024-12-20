@@ -154,6 +154,14 @@ hardware_interface::return_type EncodedDcMotorKitHardwareInterface::read(const r
   double position = (((double)signed_data)/500);
   position_state[0] = position;
 
+
+  //calculate velocity
+  double time_interval = period.seconds(); //get the time interval in seconds
+  double velocity = (position - previous_position)/time_interval;
+  previous_position = position;
+  velocity_state[0] = velocity;
+
+
   return hardware_interface::return_type::OK;
 }
 

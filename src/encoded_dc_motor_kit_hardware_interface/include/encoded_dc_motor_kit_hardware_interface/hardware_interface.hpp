@@ -49,6 +49,7 @@ namespace encoded_dc_motor_kit_hardware_interface
             std::vector<double> effort_state;
             std::vector<double> effort_command;
             double position = 0.0;
+            double previous_position = 0.0;
             rclcpp::Publisher<ros2_motor_controller_msgs::msg::VelocityFeedback>::SharedPtr velocity_publisher_;
             rclcpp::TimerBase::SharedPtr timer_;
             rclcpp::Node::SharedPtr node_;

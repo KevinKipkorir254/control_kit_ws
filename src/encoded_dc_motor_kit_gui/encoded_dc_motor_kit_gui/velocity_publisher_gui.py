@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ 
-    A node to publish voltage to the hardware interface  
+    A node to publish velocity to the hardware interface  
     Provides a simple GUI interface
 """
 import tkinter as tk
@@ -13,8 +13,8 @@ import threading
 
 class EffortControllerPublisher(Node):
     def __init__(self):
-        super().__init__("effort_controller_gui")
-        self.publisher = self.create_publisher(Float64MultiArray, "/effort_controller/commands", 10)
+        super().__init__("velocity_controller_gui")
+        self.publisher = self.create_publisher(Float64MultiArray, "/velocity/commands", 10)
 
     def publish_effort(self, effort_value):
         msg = Float64MultiArray()
@@ -34,11 +34,12 @@ class EffortControlGUI:
         # Slider for setting effort value
         self.slider = tk.Scale(
             self.root,
-            from_=-255,
-            to=255,
+            from_=-7,
+            to=7,
             orient="horizontal",
             label="Effort Value",
             length=300,
+            resolution=0.1,  # Set step size to 0.1
             command=self.publish_value,  # Publish whenever slider changes
         )
         self.slider.pack(pady=20)
@@ -58,7 +59,7 @@ class EffortControlGUI:
 
     def publish_value(self, value):
         # Convert the slider value to an integer and publish
-        effort_value = int(value)
+        effort_value = value
         self.node.publish_effort(effort_value)
 
     def spring_back(self, event):
