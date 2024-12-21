@@ -34,8 +34,8 @@ class EffortControlGUI:
         # Slider for setting effort value
         self.slider = tk.Scale(
             self.root,
-            from_=-7,
-            to=7,
+            from_=-2.0,
+            to=2.0,
             orient="horizontal",
             label="Velocity Value",
             length=300,
@@ -45,7 +45,7 @@ class EffortControlGUI:
         self.slider.pack(pady=20)
 
         # Bind the release event to spring back the slider
-        self.slider.bind("<ButtonRelease-1>", self.spring_back)
+        # self.slider.bind("<ButtonRelease-1>", self.spring_back)
 
         # Exit button
         self.exit_button = tk.Button(

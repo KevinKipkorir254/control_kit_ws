@@ -168,6 +168,17 @@ namespace encoded_dc_motor_kit_hardware_interface
     int data_output_sting = (int)effort_command[0];
     // int data_output_sting = 0;
 
+    //clamp PWM output value
+    if (data_output_sting > 255)
+    {
+      data_output_sting = 255;
+    }
+    else if (data_output_sting < -255)
+    {
+      data_output_sting = -255;
+    }
+
+
     // Split data_output into two bytes
     uint8_t high_byte = (data_output_sting >> 8) & 0xFF;
     uint8_t low_byte = data_output_sting & 0xFF;
@@ -177,11 +188,11 @@ namespace encoded_dc_motor_kit_hardware_interface
 
     if (!(sweet == 1))
     {
-      RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Data read failed");
+      RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Data write failed");
     }
     else
     {
-      RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), BLUE_TEXT ": %d" RESET_COLOR, data_output_sting);
+      RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), BLUE_TEXT ": %d, %0.4f, %d" RESET_COLOR, data_output_sting, effort_command[0], (int)effort_command[0]);
     }
 
     return hardware_interface::return_type::OK;
