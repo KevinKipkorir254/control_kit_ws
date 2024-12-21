@@ -1,19 +1,14 @@
 controller_manager:
   ros__parameters:
-    update_rate: 100  # Hz
+    update_rate: 70  # Hz leave it at 70, 100 seems to be too much
 
-    velocity_controller:
-      type: velocity_controllers/JointGroupVelocityController
+    effort_controller:
+      type: effort_controllers/JointGroupEffortController
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-velocity_controller:
+effort_controller:
   ros__parameters:
     joints:
-      - shaft_joint   
-    # interface_name: velocity
-    # state_interfaces: 
-    #   - velocity  # State interface to read velocity
-    # command_interfaces: 
-    #   - velocity  # Command interface to send velocity command
+      - shaft_joint   # Joint name

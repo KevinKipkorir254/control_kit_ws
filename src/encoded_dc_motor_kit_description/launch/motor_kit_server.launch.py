@@ -93,7 +93,7 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         effort_controller_spawner,
         #velocity_controller_spawner,
-        rviz2,
+        #rviz2,
         #joint_state_publisher_gui,
         #models_visualisation_node,
     ])
